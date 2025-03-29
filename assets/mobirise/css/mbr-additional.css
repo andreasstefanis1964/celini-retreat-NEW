@@ -2052,6 +2052,7 @@ section.lazy-placeholder:after {
 }
 .cid-uEEYekBkEQ .item-wrapper {
   width: 100%;
+  position: relative;
 }
 @media (max-width: 767px) {
   .cid-uEEYekBkEQ .container .carousel-control {
@@ -2123,10 +2124,10 @@ section.lazy-placeholder:after {
   text-align: center;
 }
 .cid-uEEYekBkEQ H5 {
-  color: #2e8ba9;
+  color: #ffffff;
 }
 .cid-uEEYekBkEQ P {
-  color: #2e8ba9;
+  color: #ffffff;
 }
 .cid-uFgR5UHvsI {
   padding-top: 60px;
