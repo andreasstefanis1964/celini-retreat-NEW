@@ -89,7 +89,7 @@
       "rejectText": "REJECT"
     },
     "cookiesAlertType": "1",
-    "uniqCompNum": 253,
+    "uniqCompNum": 255,
     "versionPublish": "6.0.3",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -7183,7 +7183,7 @@
           },
           "_name": "gallery1",
           "_sourceTheme": "hotelm4",
-          "_customHTML": "<section class=\"gallery1 hotelm4_gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Galleries\" plugins=\"Masonry, Slider, BootstrapCarouselSwipe, Gallery, VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n\t\t<input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n\t\t<input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#efefef\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#c19b76\" condition=\"gradientOverlay\">\n\t\t<input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#333333\" condition=\"gallery__filter\">\n\t\t<input type=\"color\" title=\"Tags Underline Color\" name=\"tagsUnderline\" value=\"#c19b76\" condition=\"gallery__filter\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">LUXURY VACATION RENTALS In KARPENISI</h3>\n\n\t<div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n\t\t<div class=\"line\"></div>\n\t</div>\n\n\t<h2 class=\"mbr-section-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Villa Klitios</h2>\n\n\t<div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n</section>",
+          "_customHTML": "<section class=\"gallery1 hotelm4_gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Galleries\" plugins=\"Masonry, Slider, BootstrapCarouselSwipe, Gallery, VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n\t\t<input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n\t\t<input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#efefef\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#c19b76\" condition=\"gradientOverlay\">\n\t\t<input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#333333\" condition=\"gallery__filter\">\n\t\t<input type=\"color\" title=\"Tags Underline Color\" name=\"tagsUnderline\" value=\"#c19b76\" condition=\"gallery__filter\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c6ad72\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">LUXURY VACATION RENTALS In KARPENISI</h3>\n\n\t<div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n\t\t<div class=\"line\"></div>\n\t</div>\n\n\t<h2 class=\"mbr-section-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Villa Klitios</h2>\n\n\t<div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n</section>",
           "_isUserblock": true,
           "_cid": "uH3WAB4t3y",
           "_protectedParams": [
@@ -7679,6 +7679,421 @@
           },
           "_name": "slider2",
           "_sourceTheme": "electricm5",
+          "_customHTML": "<section class=\"slider2 mbr-embla electricm5\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"embla\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"8\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Card Description\" name=\"showDesc\" checked>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#e6c8ab\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row position-relative\">\n            <div class=\"col-12\">\n                <div class=\"slider-wrap\">\n                    <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n                        <div class=\"embla__viewport\">\n                            <div class=\"embla__container\">\n                                <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                    <div class=\"card-wrap\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n                                        <div class=\"content-wrap\">\n                                            <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    \n                                            </h5>\n                                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                                <br><br>Classic Double room</h4>\n                                            <p class=\"card-desc mbr-fonts-style\" data-app-selector=\".card-desc\" mbr-theme-style=\"display-7\" mbr-if=\"showDesc\">from € 44,00*/unit &amp; night (*non refundable rate Low season)<br></p>\n                                            <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Your perfect stay begins with the right space. Cozy and inviting, perfect for couples or solo travelers.</p>\n                                            <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a>\n                                                <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-air-conditioner1 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-smart-tv mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-kitchen-sink mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a>  <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-coffee-machine mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-hairdryer mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-showerheads-01 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a>   <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-broom mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span></a>   <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-house-plan mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span>20m²</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mdi-social-people mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px;\"></span>max</a>  <a class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://ibe.channex.io/online-booking-classic-double-room?lang=en\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\"></span>BOOK ONLINE</a></div>\n                                        </div>\n                                        <div class=\"item-wrapper position-relative\">\n                                            <div class=\"image-wrap\">\n                                                <img src=\"@PROJECT_PATH@/assets/images/-35a5515-hdr.webp\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                            </div>\n                        </div>\n                        <button class=\"embla__button embla__button--prev\">\n                            <span class=\"mbr-iconfont mobi-mbri-left mobi-mbri\" aria-hidden=\"true\"></span>\n                            <span class=\"sr-only visually-hidden\">Previous</span>\n                        </button>\n                        <button class=\"embla__button embla__button--next\">\n                            <span class=\"mbr-iconfont mobi-mbri-right mobi-mbri\" aria-hidden=\"true\"></span>\n                            <span class=\"sr-only visually-hidden\">Next</span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "slider2-71",
+          "_isUserblock": true,
+          "_cid": "uH4ajqU2Td",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".underline": {
+              ".line": {
+                "width": "2rem",
+                "height": "1px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-title, .mbr-section-subtitle, .underline": {
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "@overlayColor1",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
+              }
+            },
+            ".icon-focus": {
+              "display": "none"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all 0.5s ease",
+              "position": "absolute",
+              "text-align": "center",
+              "display": "none",
+              "width": "100%",
+              "bottom": "0",
+              "right": "0",
+              "padding": "1rem",
+              "color": "#ffffff",
+              "background": "transparent",
+              "-webkit-transition": "all 0.5s ease",
+              "-moz-transition": "all 0.5s ease",
+              "-o-transition": "all 0.5s ease",
+              "-ms-transition": "all 0.5s ease"
+            },
+            "ul": {
+              "font-size": "0"
+            },
+            ".mbr-gallery-filter ul li .btn": {
+              "border": "none",
+              "background-color": "transparent",
+              "color": "@tagsColor !important",
+              "padding": "0.5rem 1rem 0.6rem",
+              "border-radius": "0",
+              "margin": "0 !important",
+              "transition": "padding, border 0s, transform 0.2s"
+            },
+            ".mbr-gallery-filter ul li.active .btn": {
+              "padding": "0.5rem 1rem 0.5rem",
+              "border-radius": "0 !important",
+              "position": "relative"
+            },
+            ".mbr-gallery-filter ul li.active .btn:after": {
+              "content": "''",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "3px",
+              "background": "@tagsUnderline"
+            },
+            ".mbr-gallery-filter ul li": {
+              "padding": "0"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title": {
+                "padding-bottom": "1.5rem",
+                "display": "block"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacityItem !important"
+              }
+            },
+            ".btn": {
+              "background": "none",
+              "border-radius": "0 !important",
+              "&:hover": {
+                "background": "transparent !important",
+                "&:before": {
+                  "background": "transparent !important"
+                }
+              },
+              "&:before": {
+                "background-color": "transparent !important"
+              },
+              "&:focus": {
+                "box-shadow": "none",
+                "background": "transparent !important"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_sourceTheme": "hotelm4",
+          "_customHTML": "<section class=\"gallery1 hotelm4_gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Galleries\" plugins=\"Masonry, Slider, BootstrapCarouselSwipe, Gallery, VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n\t\t<input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n\t\t<input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#efefef\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#c19b76\" condition=\"gradientOverlay\">\n\t\t<input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#333333\" condition=\"gallery__filter\">\n\t\t<input type=\"color\" title=\"Tags Underline Color\" name=\"tagsUnderline\" value=\"#c19b76\" condition=\"gallery__filter\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#e6c8ab\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">LUXURY VACATION RENTALS In KARPENISI</h3>\n\n\t<div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n\t\t<div class=\"line\"></div>\n\t</div>\n\n\t<h2 class=\"mbr-section-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Villa Klitios</h2>\n\n\t<div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n</section>",
+          "_anchor": "gallery1-72",
+          "_isUserblock": true,
+          "_cid": "uH4aRnqmWk",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-35a5530-hdr.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/-35a5530-hdr.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-5",
+                "caption": "Villa Klitios",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-35a5536.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/-35a5536.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-5",
+                "caption": "Villa Klitios",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-35a5539-enhanced-nr.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/-35a5539-enhanced-nr.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-5",
+                "caption": "Villa Klitios",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-35a5540-enhanced-nr.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/-35a5540-enhanced-nr.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-5",
+                "caption": "Villa Klitios",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/studios-138.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/studios-138.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-5",
+                "caption": "Villa Klitios",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 40px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 20px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0 20px"
+              }
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "100%",
+              "max-width": "100%",
+              "@media (max-width: 768px)": {
+                "min-width": "100%",
+                "max-width": "100%",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important",
+                "border-right": "none"
+              },
+              ".card-wrap": {
+                "display": "flex",
+                "@media (max-width: 992px)": {
+                  "display": "block"
+                },
+                ".content-wrap": {
+                  "width": "40%",
+                  "@media (max-width: 992px)": {
+                    "margin-bottom": "24px",
+                    "width": "100%"
+                  },
+                  ".card-subtitle": {
+                    "margin-bottom": "10px",
+                    "letter-spacing": ".16em"
+                  },
+                  ".card-title": {
+                    "margin-bottom": "16px"
+                  },
+                  ".card-desc": {
+                    "margin-bottom": "30px"
+                  },
+                  ".card-text": {
+                    "margin-bottom": "24px"
+                  }
+                },
+                ".item-wrapper": {
+                  "width": "60%",
+                  "padding-left": "4rem",
+                  "& when (@reverseContent)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem",
+                    "@media (max-width: 992px)": {
+                      "padding": "0"
+                    }
+                  },
+                  "@media (max-width: 992px)": {
+                    "width": "100%",
+                    "padding": "0"
+                  },
+                  ".image-wrap": {
+                    "height": "100%",
+                    "display": "flex",
+                    "align-items": "center",
+                    "img": {
+                      "height": "650px",
+                      "width": "100%",
+                      "object-fit": "cover",
+                      "@media (max-width: 992px)": {
+                        "height": "550px"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button": {
+              "bottom": "-3rem",
+              "width": "40px",
+              "height": "40px",
+              "margin-top": "-1.5rem",
+              "font-size": "16px",
+              "background-color": "transparent",
+              "color": "@primaryColor",
+              "border": "2px solid @infoColor",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&:hover": {
+                "background": "transparent",
+                "color": "@primaryColor",
+                "border-color": "@primaryColor"
+              },
+              "&.embla__button--prev": {
+                "left": "auto",
+                "right": "3.5rem",
+                "margin-left": "0"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "0"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            },
+            ".card-subtitle": {
+              "color": "#ededed"
+            },
+            ".card-title": {
+              "color": "#2e8ba9"
+            },
+            ".card-desc": {
+              "color": "#ffffff"
+            },
+            ".card-text": {
+              "color": "#2e8ba9"
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "electricm5",
           "_customHTML": "<section class=\"slider2 mbr-embla electricm5\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"embla\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"7\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Card Description\" name=\"showDesc\" checked>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#a3c6d2\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row position-relative\">\n            <div class=\"col-12\">\n                <div class=\"slider-wrap\">\n                    <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n                        <div class=\"embla__viewport\">\n                            <div class=\"embla__container\">\n                                <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                    <div class=\"card-wrap\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n                                        <div class=\"content-wrap\">\n                                            <h5 class=\"card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".card-subtitle\">\n                                    \n                                            </h5>\n                                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                                <br><br>Classic Twin room</h4>\n                                            <p class=\"card-desc mbr-fonts-style\" data-app-selector=\".card-desc\" mbr-theme-style=\"display-7\" mbr-if=\"showDesc\">from € 44,00*/unit &amp; night (*non refundable rate Low season)<br></p>\n                                            <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Your perfect stay begins with the right space. Cozy and inviting, perfect for couples or solo travelers. This stylish air-conditioned room features two single beds, with a well-equipped kitchenette, fridge and stovetop, bathroom with bath or shower. Facilities also include a mini safe, a flat-screen TV and free WiFi.</p>\n                                            <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span></a>\n                                                <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-air-conditioner1 mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-smart-tv mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-kitchen-sink mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-coffee-machine mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-hairdryer mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-showerheads-01 mbr-iconfont mbr-iconfont-btn\"></span></a>   <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-broom mbr-iconfont mbr-iconfont-btn\"></span></a>  <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-alcohol-drink mbr-iconfont mbr-iconfont-btn\"></span></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-house-plan mbr-iconfont mbr-iconfont-btn\"></span>20m²</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mdi-social-people mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(132, 88, 46);\"></span>max</a>  <a class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://ibe.channex.io/online-booking-classic-twin-room?lang=en\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\"></span>BOOK ONLINE</a></div>\n                                        </div>\n                                        <div class=\"item-wrapper position-relative\">\n                                            <div class=\"image-wrap\">\n                                                <img src=\"@PROJECT_PATH@/assets/images/-35a5549-hdr.webp\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                            </div>\n                        </div>\n                        <button class=\"embla__button embla__button--prev\">\n                            <span class=\"mbr-iconfont mobi-mbri-left mobi-mbri\" aria-hidden=\"true\"></span>\n                            <span class=\"sr-only visually-hidden\">Previous</span>\n                        </button>\n                        <button class=\"embla__button embla__button--next\">\n                            <span class=\"mbr-iconfont mobi-mbri-right mobi-mbri\" aria-hidden=\"true\"></span>\n                            <span class=\"sr-only visually-hidden\">Next</span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
@@ -7821,7 +8236,7 @@
           },
           "_name": "gallery1",
           "_sourceTheme": "hotelm4",
-          "_customHTML": "<section class=\"gallery1 hotelm4_gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Galleries\" plugins=\"Masonry, Slider, BootstrapCarouselSwipe, Gallery, VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline=\"\">\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline=\"\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Underline\" name=\"showUnderline\" checked=\"\" condition=\"showSubtitle\">\n\t\t<input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline &amp;&amp; showSubtitle\">\n\t\t<input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#efefef\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#c19b76\" condition=\"gradientOverlay\">\n\t\t<input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline=\"\">\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#333333\" condition=\"gallery__filter\">\n\t\t<input type=\"color\" title=\"Tags Underline Color\" name=\"tagsUnderline\" value=\"#c19b76\" condition=\"gallery__filter\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"\" parallax=\"\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">LUXURY VACATION RENTALS In KARPENISI</h3>\n\n\t<div class=\"underline align-center pb-3\" mbr-if=\"showUnderline &amp;&amp; showSubtitle\">\n\t\t<div class=\"line\"></div>\n\t</div>\n\n\t<h2 class=\"mbr-section-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Villa Klitios</h2>\n\n\t<div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n</section>",
+          "_customHTML": "<section class=\"gallery1 hotelm4_gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Galleries\" plugins=\"Masonry, Slider, BootstrapCarouselSwipe, Gallery, VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n\t\t<input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline && showSubtitle\">\n\t\t<input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#efefef\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#c19b76\" condition=\"gradientOverlay\">\n\t\t<input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#333333\" condition=\"gallery__filter\">\n\t\t<input type=\"color\" title=\"Tags Underline Color\" name=\"tagsUnderline\" value=\"#c19b76\" condition=\"gallery__filter\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#a3c6d2\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter align-center\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\">LUXURY VACATION RENTALS In KARPENISI</h3>\n\n\t<div class=\"underline align-center pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n\t\t<div class=\"line\"></div>\n\t</div>\n\n\t<h2 class=\"mbr-section-title mbr-fonts-style align-center pb-5\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Villa Klitios</h2>\n\n\t<div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n</section>",
           "_anchor": "gallery1-70",
           "_isUserblock": true,
           "_cid": "uH48eSWZx1",
