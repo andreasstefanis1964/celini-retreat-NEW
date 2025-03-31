@@ -815,26 +815,6 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/-35a5600-hdr-2000x1333.webp",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Innovative Technology",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "A spacious haven with room for everyone, offering added privacy and comfort.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn display-4 btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">from € 78,00*/unit &amp; night (*non refundable rate Low season)</a>",
-                "textTitle": "Two Bedroom Apartment",
-                "overlayOpacity": "0.3",
-                "overlayColor": "#878787"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/-35a5616-2000x1333.webp",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
@@ -851,7 +831,27 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn display-4 btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">from € 78,00*/unit &amp; night (*non refundable rate Low season)</a>",
                 "textTitle": "Two Bedroom Apartment",
                 "overlayOpacity": "0.3",
-                "overlayColor": "#878787"
+                "overlayColor": "#333333"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-35a5616-2000x1333.webp",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Innovative Technology",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "A spacious haven with room for everyone, offering added privacy and comfort.",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn display-4 btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">from € 78,00*/unit &amp; night (*non refundable rate Low season)</a>",
+                "textTitle": "Two Bedroom Apartment",
+                "overlayOpacity": "0.3",
+                "overlayColor": "#333333"
               }
             ]
           }
