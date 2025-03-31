@@ -1429,6 +1429,178 @@ section.lazy-placeholder:after {
   box-shadow: none;
   background: transparent !important;
 }
+.cid-uH3kc0js52 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #487f91;
+}
+.cid-uH3kc0js52 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uH3kc0js52 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uH3kc0js52 .container-fluid {
+  padding: 0 40px;
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .container-fluid {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .container {
+    padding: 0 20px;
+  }
+}
+.cid-uH3kc0js52 .embla__slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-uH3kc0js52 .embla__slide {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    border-right: none;
+  }
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap {
+  display: flex;
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .embla__slide .card-wrap {
+    display: block;
+  }
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap {
+  width: 40%;
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap .card-subtitle {
+  margin-bottom: 10px;
+  letter-spacing: .16em;
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap .card-title {
+  margin-bottom: 16px;
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap .card-desc {
+  margin-bottom: 30px;
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .content-wrap .card-text {
+  margin-bottom: 24px;
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .item-wrapper {
+  width: 60%;
+  padding-left: 4rem;
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .embla__slide .card-wrap .item-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .item-wrapper .image-wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.cid-uH3kc0js52 .embla__slide .card-wrap .item-wrapper .image-wrap img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .cid-uH3kc0js52 .embla__slide .card-wrap .item-wrapper .image-wrap img {
+    height: 550px;
+  }
+}
+.cid-uH3kc0js52 .embla__button--next,
+.cid-uH3kc0js52 .embla__button--prev {
+  display: flex;
+}
+.cid-uH3kc0js52 .embla__button {
+  bottom: -3rem;
+  width: 40px;
+  height: 40px;
+  margin-top: -1.5rem;
+  font-size: 16px;
+  background-color: transparent;
+  color: #c6ad72;
+  border: 2px solid #709faf;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-uH3kc0js52 .embla__button:disabled {
+  cursor: default;
+  display: none;
+}
+.cid-uH3kc0js52 .embla__button:hover {
+  background: transparent;
+  color: #c6ad72;
+  border-color: #c6ad72;
+}
+.cid-uH3kc0js52 .embla__button.embla__button--prev {
+  left: auto;
+  right: 3.5rem;
+  margin-left: 0;
+}
+.cid-uH3kc0js52 .embla__button.embla__button--next {
+  right: 0;
+  margin-right: 0;
+}
+.cid-uH3kc0js52 .embla {
+  position: relative;
+  width: 100%;
+}
+.cid-uH3kc0js52 .embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.cid-uH3kc0js52 .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-uH3kc0js52 .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-uH3kc0js52 .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cid-uH3kc0js52 .card-subtitle {
+  color: #ededed;
+}
+.cid-uH3kc0js52 .card-title {
+  color: #c6ad72;
+}
+.cid-uH3kc0js52 .card-desc {
+  color: #ffffff;
+}
+.cid-uH3kc0js52 .card-text {
+  color: #c6ad72;
+}
 .cid-uCuUSwCtet {
   padding-top: 6rem;
   padding-bottom: 6rem;
